@@ -1,0 +1,175 @@
+/* estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de header */
+
+header {
+    background-color: #e8e8e8;
+}
+
+
+header a img {
+    width: 100px
+}
+
+/* header nav{
+    position: absolute;
+    top: 65px;
+    right: 10px;
+       
+} */
+
+/* header nav ul {
+    list-style: none;
+    } */
+
+.menu-ul li {
+    display: inline-block;
+    padding-right: 75px; 
+  }
+
+.menu {
+    flex-grow: 0;
+}
+
+.menu-icon {
+    background-image: url(../assets/img/menu_mobile.svg);
+}
+
+.menu-ul {
+    align-items: center;
+}
+
+.menu-ul li a {
+    color: #878383;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* main index */
+
+.video-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* main nosotros */
+
+.mainNosotros div {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/* main habitaciones */
+
+.mainHabitaciones section .card {
+    width: 430px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 15px 17px 14px 0px rgba(0, 0, 0, 0.75);
+    display: inline-block
+}
+
+.mainHabitaciones section .card img {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.mainHabitaciones section .card div p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+
+/* main precios */
+
+.mainPrecios div {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainPrecios p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.mainPrecios div table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.mainPrecios div table th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+/* main amenidades */
+.mainAmenidades img {
+    width: 80%;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.mainAmenidades p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.mainAmenidades div {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+/* main contacto */
+
+.mainContacto form {
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+
+.mainContacto form div {
+    padding-top: 10px;
+}
+
+.mainContacto form div label {
+    display: block
+}
+
+/* estilos footer */
+
+footer div a img {
+    width: 30px;
+}
+
+footer div {
+    position: absolute;
+    right: 600px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}

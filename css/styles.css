@@ -53,9 +53,15 @@ header a img {
 /* main index */
 
 .video-container {
-    width: 80%;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+main h2 {
     text-align: center;
+    padding-top: 20px;
 }
 
 /* main nosotros */
@@ -70,20 +76,41 @@ header a img {
 
 /* main habitaciones */
 
-.mainHabitaciones section .card {
+.mainhabitaciones {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en la primera fila */
+    grid-template-rows: auto; /* Altura automática para las filas */
+    gap: 20px; 
+}
+
+.mainHabitaciones div div .card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  
     width: 430px;
     height: 300px;
     margin: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px 20px 20px 20px;
-    overflow: hidden;
     box-shadow: 15px 17px 14px 0px rgba(0, 0, 0, 0.75);
     display: inline-block
 }
 
 .mainHabitaciones section .card img {
-    width: 100%;
-    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 .mainHabitaciones section .card div p {
@@ -91,6 +118,10 @@ header a img {
     padding-top: 30px;
     padding-bottom: 10px;
 
+}
+
+.card:nth-child(3) {
+    grid-column: span 2;
 }
 
 
@@ -163,13 +194,17 @@ td {
 /* estilos footer */
 
 footer div a img {
-    width: 30px;
+    width: 55px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
 }
 
 footer div {
-    position: absolute;
-    right: 600px;
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
 }

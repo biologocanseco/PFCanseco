@@ -1,0 +1,38 @@
+/*estilos del footer*/
+
+footer {
+    text-align: center;
+    padding: 15px;
+    display: grid;
+
+    p {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    div {
+        padding-bottom: 5px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0px 20px 0px 20px;
+
+                a {
+                    text-decoration: none;
+
+                    img {
+                        height: 40px;
+                        width: 40x;
+                        padding: 0;
+                        filter: none;
+                    }
+                }
+            }
+        }
+    }
+}

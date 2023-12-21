@@ -9,8 +9,10 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Link a css -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Pagina principal La patrona</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -47,23 +49,40 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h2>Bienvenidos a la Patrona Hostal</h2>
-        <div class="video-container">
-            <video src="./assets/videos/VideoPrincipal.mp4" width="300" controls autoplay muted></video>
-        </div>
+    <main class="main-index">
+        <h1>Bienvenidos a la Patrona Hostal</h1>
+        <section class="seccion-uno">
+            <div class="seccion-uno-texto">
+                <h2>Tu hogar lejos de casa en la hermosa ciudad de Oaxaca, México!</h2>
+                <p>En el corazón de esta tierra rica en cultura y tradición, te ofrecemos una experiencia única de hospitalidad
+                    en nuestro encantador hostal. En La Patrona, no solo encontrarás un lugar para descansar, sino también un
+                    refugio lleno de calidez y autenticidad.</p>
+            </div>
+            <div class="seccion-uno-video">
+                <video src="./assets/videos/VideoPrincipal.mp4" width="300" controls autoplay muted></video>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Visita nuestras redes sociales:</p>
         <div>
-            <a href="#">
-                <img src="./assets/img/facebook_logo.png" alt="Facebook">
-            </a>
-            <a href="#">
-                <img src="./assets/img/twitter_logo.jpg" alt="Twitter">
-                <a href="#">
-                    <img src="./assets/img/Instagram_logo.jpg" alt="Instagram">
-                </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/facebook_logo.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/twitter_logo.jpg" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/Instagram_logo.jpg" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
         </div>
     </footer>
     <!-- Script Bootstrap CDN-->

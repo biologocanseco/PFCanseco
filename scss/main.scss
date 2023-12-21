@@ -1,0 +1,14 @@
+@import "./utilities/reset";
+@import "./utilities/globals";
+@import "./utilities/variables";
+@import "./utilities/mixin";
+@import "./utilities/extend";
+@import "./components/header";
+@import "./components/footer";
+@import "./pages/index";
+@import "./pages/nosotros";
+@import "./pages/precios";
+@import "./pages/habitaciones";
+@import "./pages/amenidades";
+@import "./pages/contacto";
+@import "./utilities/media-queries";

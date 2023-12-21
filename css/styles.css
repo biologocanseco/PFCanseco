@@ -1,58 +1,69 @@
 /* estilos generales */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 /* estilos de header */
 
-header {
-    background-color: #e8e8e8;
-}
-
-
-header a img {
-    width: 100px
-}
-
-/* header nav{
-    position: absolute;
-    top: 65px;
-    right: 10px;
-       
+/* html{
+    font-family: 'Monserrat', sans-serif;
 } */
 
+header {
+    /* background-color: #e8e8e8;
+    position:sticky;
+    top:0;
+    width:100%;
+    flex-wrap: wrap;
+    z-index: 10;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5);
+} */
+
+
+/* header a img {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+} */
+
+/* header nav{
+    place-self: center end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+   } */
+
 /* header nav ul {
-    list-style: none;
+    display:flex;
     } */
 
-.menu-ul li {
+/* .menu-ul li {
     display: inline-block;
-    padding-right: 75px; 
-  }
+  } */
 
-.menu {
+/* .menu {
     flex-grow: 0;
-}
+} */
 
-.menu-icon {
+/* .menu-icon {
     background-image: url(../assets/img/menu_mobile.svg);
-}
+} */
 
-.menu-ul {
+/* .menu-ul {
     align-items: center;
-}
+} */
 
-.menu-ul li a {
+/* .menu-ul li a {
     color: #878383;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
-}
+} */
 
 /* main index */
 
-.video-container {
+/* .video-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,38 +73,57 @@ header a img {
 main h2 {
     text-align: center;
     padding-top: 20px;
-}
+} */
 
 /* main nosotros */
 
-.mainNosotros div {
+/* .mainNosotros div {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
 
 
 
 /* main habitaciones */
 
 .mainhabitaciones {
-    margin: 0;
+    background: linear-gradient(to bottom, #e8e8e8, white);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr, 1fr, 0.5fr;
+    grid-template-areas: 
+    "seccion1 seccion1"
+    "seccion2 seccion4"
+    "seccion3 seccion3";
+    overflow: hidden;
+    /* margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; */
 }
 
+
+.mainAmenidades .seccion1{
+    grid-area:seccion1;
+    text-align: center;
+    padding: 5%;
+    }
+
+
+
+/*  
 
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas en la primera fila */
-    grid-template-rows: auto; /* Altura automática para las filas */
-    gap: 20px; 
-}
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto;
+    gap: 20px;  
+} */
 
-.mainHabitaciones div div .card {
+/* .mainHabitaciones div div .card {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -122,12 +152,12 @@ main h2 {
 
 .card:nth-child(3) {
     grid-column: span 2;
-}
+}  */
 
 
 /* main precios */
 
-.mainPrecios div {
+/* .mainPrecios div {
     width: 80%;
     margin: 0 auto;
     padding-top: 10px;
@@ -152,11 +182,11 @@ main h2 {
 td {
     border: 1px solid black;
     padding: 8px;
-}
+} */
 
 
 /* main amenidades */
-.mainAmenidades img {
+/* .mainAmenidades img {
     width: 80%;
     padding-bottom: 15px;
     padding-top: 25px;
@@ -173,10 +203,10 @@ td {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 5px;
-}
+} */
 
 /* main contacto */
-
+/* 
 .mainContacto form {
     padding-left: 50px;
     padding-top: 20px;
@@ -189,22 +219,46 @@ td {
 
 .mainContacto form div label {
     display: block
-}
+} */
 
 /* estilos footer */
 
-footer div a img {
-    width: 55px;
-}
+/* footer {
+    text-align: center;
+    padding: 15px;
+    display:grid;
+} */
 
-footer p {
+/* footer p {
     text-align: center;
     padding-top: 20px;
-}
+} */
 
-footer div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-}
+/* footer div {
+    padding-bottom: 5px;
+} */
+
+
+/* footer div ul{
+    margin: 0;
+    padding: 0;
+} */
+
+/* footer div ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+} */
+
+/* footer div ul li a{
+    text-decoration: none;
+} */
+
+/* footer div ul li a img {
+    height: 40px;
+    width: 40x;
+    padding: 0;
+    filter: none;
+} */
+
+

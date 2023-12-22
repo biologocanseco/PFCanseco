@@ -11,7 +11,7 @@
     font-family: 'Monserrat', sans-serif;
 } */
 
-header {
+/* header { */
     /* background-color: #e8e8e8;
     position:sticky;
     top:0;
@@ -87,7 +87,7 @@ main h2 {
 
 /* main habitaciones */
 
-.mainhabitaciones {
+/* .mainhabitaciones {
     background: linear-gradient(to bottom, #e8e8e8, white);
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -96,21 +96,21 @@ main h2 {
     "seccion1 seccion1"
     "seccion2 seccion4"
     "seccion3 seccion3";
-    overflow: hidden;
+    overflow: hidden; */
     /* margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f0f0f0; */
-}
+    background-color: #f0f0f0;
+} */
 
 
-.mainAmenidades .seccion1{
+/* .mainAmenidades .seccion1{
     grid-area:seccion1;
     text-align: center;
     padding: 5%;
-    }
+    } */
 
 
 

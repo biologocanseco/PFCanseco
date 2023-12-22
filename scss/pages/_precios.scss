@@ -1,29 +1,42 @@
 /* main Precios*/
 
-.mainPrecios {
+.mainPrecios{
+
 	div {
 		width: 80%;
 		margin: 0 auto;
 		padding-top: 10px;
 		padding-bottom: 10px;
+
 		table {
 			width: 100%;
 			border-collapse: collapse;
 			text-align: center;
-			th {
-				border: 1px solid black;
-				padding: 8px;
+
+			thead {
+				tr {
+					th {
+						border: 1px solid black;
+						padding: 8px;
+					}
+				}
+			}
+
+			tbody {
+				tr {
+					td {
+						border: 1px solid black;
+						padding: 8px;
+					}
+				}
 			}
 		}
+
+		p {
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-weight: bold;
+		}
 	}
-	p {
-		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		font-weight: bold;
-	}
-}
-td {
-	border: 1px solid black;
-	padding: 8px;
 }

@@ -1,6 +1,14 @@
 /* main Contacto*/
 
 .mainContacto {
+	h1{
+		display: block;
+		text-align: center;
+	}
+
+	p{
+		padding: 15px 15px 5px 15px;
+	}
 	form {
 		padding-left: 50px;
 		padding-top: 20px;
